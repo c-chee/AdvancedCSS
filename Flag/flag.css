@@ -1,3 +1,17 @@
 body {
     background-color: lavender;
 }
+
+.flag-container {
+    display: grid;
+    background-color: white;
+    grid-template-rows: repeat(7,1fr);
+    gap: 50px
+
+}
+
+.red-stripe {
+    background-color: red;
+    color: red;
+    height: 50px;
+}
