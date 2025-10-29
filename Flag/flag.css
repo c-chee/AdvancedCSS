@@ -5,13 +5,80 @@ body {
 .flag-container {
     display: grid;
     background-color: white;
-    grid-template-rows: repeat(7,1fr);
-    gap: 50px
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 
 .red-stripe {
     background-color: red;
     color: red;
-    height: 50px;
+    height: 100%;
 }
+
+.stars {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.stars img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .row1 .row2 .row3 .row4 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+} */
+
+.row1{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 0;
+    grid-row-start: 1;
+}
+
+.row2{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-start: 3;
+}
+
+.row3{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-start: 5;
+}
+
+.row4{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-start: 7;
+}
+
+.row5{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-start: 9;
+}
+
+.row6{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-start: 11;
+}
+
+.row7{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start:12;
+    grid-row-start:13;
+}
+
