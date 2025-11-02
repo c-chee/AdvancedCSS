@@ -34,6 +34,7 @@ main {
     /* justify-content: space-between; */
     align-items: center;
     width: 100%;
+    padding: 0 2%;
 }
 
 .nav-top a img{
@@ -42,13 +43,26 @@ main {
     padding: 5px 10px;
 }
 
-/* .left-tabs a , .right-tabs a{
-    align-items: center;
-    padding: 0 10px;
-    text-decoration: none;
-    background-color: transparent;
-} */
+.nav-top .search-bar {
+    background-color: #f6f6f6;
+    width: 700px;
+    height: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 2px 5px rgba(121, 121, 121, 0.1);
+    padding: 15px 20px; 
+    margin: 0 20px;
+    outline: none;
+}
 
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
 
 .tabs a{
     font-family: Arial, Helvetica, sans-serif;
