@@ -38,7 +38,8 @@ section {
     padding: 20px 10%;
     gap: 25px;
     font-size: 15px; 
-    height: 35px;   
+    height: auto;   
+    margin: 0 175px;
 }
 
 section a {
