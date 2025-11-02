@@ -39,7 +39,7 @@ section {
     gap: 25px;
     font-size: 15px; 
     height: auto;   
-    margin: 0 175px;
+    /* margin: 0 175px; */
 }
 
 section a {
