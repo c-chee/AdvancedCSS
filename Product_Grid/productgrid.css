@@ -261,6 +261,7 @@ main {
     .tabright {
         display: none;
     }
+
 }
 
 @media (max-width: 900px) {
@@ -279,6 +280,10 @@ main {
     }
 
     .tabright {
+        display: none;
+    }
+
+    .nav-bottom a {
         display: none;
     }
 }
